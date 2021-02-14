@@ -1,0 +1,990 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+/*********************************************
+	*** Global css code start***
+**********************************************/
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+html{
+	scroll-behavior: smooth;
+}
+/*********************************************
+	*** Global css code end***
+**********************************************/
+
+/*********************************************
+	*** header-section css code start***
+**********************************************/
+.header-section {
+    width: 100%;
+    background-image: url(../images/4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 6px 0px 78px;
+}
+.header-section .bg-light {
+    background-color: transparent !important;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+	color:#fffefe;
+	background-image: url(../images/3.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	font-size: 15px;
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fffefe;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 6px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	background-image: url(../images/3.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	color:#008edc;
+}
+.header-bottom{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.hleft {
+    width: 100%;
+    margin: 100px 0px 0px 0px;
+}
+.hleft h3{
+	font-size: 18px;
+	color:#008ed6;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.hleft h1 {
+    font-size: 45px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.hleft p {
+    font-size: 18px;
+    color: #7f7f7f;
+    font-weight: 500;
+    margin-bottom: 59px;
+}
+.btn-1 {
+    padding: 13px 14px;
+    background: #008ed6;
+    color: #fff;
+    margin-right: 24px;
+    font-size: 13px;
+    font-weight: 700;
+    border: 1px solid #008ed6;
+}
+.btn-1:hover{
+	background: transparent;
+    color: #008ed6;
+    transition: 1s;
+    border: 1px solid #4d4d52;
+}
+.btn-2{
+    padding: 13px 14px;
+    background: transparent;
+    color: #fff;
+    margin-right: 24px;
+    font-size: 13px;
+    font-weight: 700;
+    border: 1px solid#4d4d52;
+}
+
+.btn-2:hover{
+	background: #008ed6;
+    color: #fff;
+    transition: 1s;
+}
+/*********************************************
+	*** header-section css code end***
+**********************************************/
+
+/*********************************************
+	*** Banner-section css code start***
+**********************************************/
+.banner-section{
+	width: 100%;
+	padding: 0px 0px;
+}
+.top-1{
+	text-align: center;
+}
+.top-1 h4 {
+    font-size: 18px;
+    color: #15a4fa;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 75px;
+}
+.top-1 h1 {
+    color: #1a1a1a;
+    font-size: 43px;
+    font-weight: 400;
+    margin-bottom: 17px;
+}
+.bottom-1{
+	width: 100%;
+	padding: 60px 10px;
+}
+.bottom-inner{
+	width: 80px;
+	height: 80px;
+	margin:20px auto;
+	border-radius: 50%;
+	border: 1px solid#e2e2e2;
+	text-align: center;
+	line-height: 80px;
+}
+.bottom-inner:hover{
+	border: 1px solid#15a4fa;
+    box-shadow: 1px 10px 15px#eee;
+}
+.bottom-1 h3{
+	color: #1a1a1a;
+	font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 11px;
+    text-align: center;
+}
+.bottom-1 h3:hover{
+	color: #15a4fa;
+}
+.bottom-1 p{
+	color: #b0b0b0;
+	text-align: center;
+	font-weight: 500;
+    margin-bottom: 10px;
+}
+/*********************************************
+	*** Banner-section css code end***
+**********************************************/
+
+/*********************************************
+	*** Features-section css code start***
+**********************************************/
+.feature-section {
+    width: 100%;
+    padding: 102px 0px;
+    background: #ffffff;
+}
+.left-2 {
+    width: 100%;
+    float: left;
+    margin-top: -46px;
+}
+.right-2 {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+.top-2 h4 {
+    color: #008ed6;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+.top-2 h1 {
+    color: #1a1a1a;
+    font-size: 44px;
+    font-weight: 700;
+}
+.top-2 img {
+    margin: 20px 1px 28px;
+}
+.top-2 p{
+    color: #999999;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 36px;
+}
+.bottom-2 {
+    width: 100%;
+    float: left;
+   	color:#1b1b1b;
+   	font-size: 18px;
+    font-weight: 500;
+}
+.bottom-2 img{
+	margin-right: 15px;
+}
+/*********************************************
+	*** Features-section css code end***
+**********************************************/
+
+/*********************************************
+	*** Review-section css code start***
+**********************************************/
+.review-section{
+    width: 100%;
+    background: #f2f2f2;
+}
+.left-3 {
+    width: 100%;
+    float: left;
+    margin-top: 126px;
+}
+.left-inner h4 {
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+.left-inner h1 {
+    color: #1a1a1a;
+    font-size: 33px;
+    font-weight: 700;
+    margin-left: -2px;
+}
+.left-inner img {
+    margin: 22px 0px 27px;
+}
+.left-inner p {
+    color: #b3b3b3;
+    font-size: 16px;
+    font-weight: 500;
+}
+.right-3 {
+    width: 100%;
+    float: left;
+    margin-top: 45px;
+    margin-bottom: 34px;
+}
+.right-3 img {
+    margin-left: -46px;
+}
+/*********************************************
+	*** Features-section css code end***
+**********************************************/
+/*********************************************
+	*** plan-section css code start***
+**********************************************/
+.plan-section{
+    width: 100%;
+    padding: 60px 0px;
+    background-image: url(../images/16.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.top-3{
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.top-3 h4{
+    font-size: 18px;
+    color: #008ed6;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+.top-3 h1{
+    color: #ffffff;
+    font-size: 43px;
+    font-weight: 400;
+    margin-bottom: 17px;
+}
+.left-4{
+    width: 100%;
+}
+.left-4 .media img{
+    width: 80px;
+}
+.left-4 .media {
+    width: 100%;
+    margin-bottom: 94px;
+}
+.media-body {
+    width: 100%;
+    margin-left: 11px !important;
+}
+.left-4 h3 {
+    color: #ffffff;
+    font-size: 19px;
+    font-style: italic;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 83px 0px 22px 0px;
+}
+.left-4 .media .media-body h5 {
+    color: #bebdbe;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 7px !important;
+}
+.left-4 .media .media-body p{
+    color: #dbdbdc;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    font-style: normal;
+}
+.right-4{
+     width: 100%;
+}
+.right-4 h3{
+    color: #ffffff;
+    font-size: 19px;
+    font-style: italic;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 83px 0px 22px 0px;
+}
+.right-4 .media .media-body h5{
+    color: #bebdbe;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 7px !important;
+}
+.right-4 .media .media-body p{
+    color: #dbdbdc;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    font-style: normal;
+}
+.right-4 .media img{
+    width: 80px;
+}
+.right-4 .media{
+    width: 100%;
+}
+/*********************************************
+    *** plan-section css code end***
+**********************************************/
+
+/*********************************************
+    *** Eye-Catcher section css code start***
+**********************************************/
+.eye-catcher{
+    width: 100%;
+    padding: 30px 0px;
+    background-color: #15141a;
+}
+.left-5 {
+    width: 100%;
+    margin: 20px 0px 0px 128px;
+}
+.left-5 h1{
+    color:#c1c0c2;
+    font-weight: 400;
+    font-size: 28px;
+}
+.left-5 strong{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 30px;
+}
+.right-5 {
+    width: 100%;
+    margin: 4px 0px 0px -17px;
+}
+.form-box{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.form-box .btn1{
+    width: 41%;
+    padding: 21px 0px;
+    background: transparent;
+    color: #fff;
+    margin-right: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid #434247;
+    text-transform: uppercase;
+}
+.btn1:hover{
+   background: #008ed6;
+    color: #fff;
+    transition: 1s;
+    border: 1px solid #008ed6;
+}
+.form-box .btnn1{
+    width: 41%;
+    padding: 21px 0px;
+    background: #008ed6;
+    color: #fff;
+    margin-right: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid #008ed6;
+    text-transform: uppercase;
+}
+.btnn1:hover{
+    background: transparent;
+    color: #008ed6;
+    transition: 1s;
+}
+/*********************************************
+    *** Eye-Catcher section css code end***
+**********************************************/
+
+
+/*********************************************
+	*** Testimonial-section css code start***
+**********************************************/
+.testimonial-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.card-top{
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+.card-top h4{
+    font-size: 18px;
+    color: #008ed6;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 14px;
+}
+.card-top h1{
+    color: #1a1a1a;
+    font-size: 43px;
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+.card-top img {
+    margin-bottom: 86px;
+}
+.card-section{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 20px;
+    height: 449px;
+}
+.card:hover{
+	box-shadow: 1px 10px 15px#ccc;
+}
+.card-1{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.card-header{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.card-header h4{
+	text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0px 4px 0px;
+    color: #1a1a1a;
+}
+.divedier {
+    background: #999;
+    width: 287px;
+    height: 1px;
+    margin: 19px 0px 19px -20px;
+}
+.card-body {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+.card-body sup {
+    color: #1a1a1a;
+    font-size: 28px;
+    font-weight: 600;
+}
+.card-body h5 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+.card-body h4{
+	color: #1a1a1a;
+    font-size: 48px;
+    font-weight: 700;
+}
+.card-text {
+    color: #999999;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    margin: 50px 0px 55px 0px;
+}
+.btn-4 {
+    width: 41%;
+    padding: 12px 19px;
+    background: transparent;
+    color: #008ed6;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #999;
+    text-transform: uppercase;
+    margin: 0px 0px;
+    border-radius: 7px;
+}
+.card-1:hover .card-text{
+	color: #fff;
+}
+
+.card-1:hover .btn-4{
+    background: #008ed6;
+    color: #fff;
+    transition: 1s;
+    border: 1px solid #008ed6;
+
+}
+.card-1:hover .card-header h4{
+     color: #08c;
+}
+.card-1:hover .card-body{
+    background: #A9A9A9;
+    color: #fff;
+    border-radius: 0px 0px 20px 20px;
+
+}
+.card-1:hover .card-body h4, .card-1:hover .card-body h5, .card-1:hover .card-body sup{
+    color: #fff;
+}
+
+.card-2{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.card-header{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.card-header h4{
+	text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0px 4px 0px;
+    color: #1a1a1a;
+}
+.divedier {
+    background: #999;
+    width: 287px;
+    height: 1px;
+    margin: 19px 0px 19px -20px;
+}
+.card-body {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+.card-body sup {
+    color: #1a1a1a;
+    font-size: 28px;
+    font-weight: 600;
+}
+.card-body h5 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+.card-body h4{
+	color: #1a1a1a;
+    font-size: 48px;
+    font-weight: 700;
+}
+.card-text {
+    color: #999999;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    margin: 50px 0px 55px 0px;
+}
+.btn-4 {
+    width: 41%;
+    padding: 12px 19px;
+    background: transparent;
+    color: #008ed6;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #999;
+    text-transform: uppercase;
+    margin: 0px 0px;
+    border-radius: 7px;
+}
+.card-2:hover .card-text{
+	color: #fff;
+}
+
+.card-2:hover .btn-4{
+    background: #008ed6;
+    color: #fff;
+    transition: 1s;
+    border: 1px solid #008ed6;
+
+}
+.card-2:hover .card-header h4{
+     color: #08c;
+}
+.card-2:hover .card-body{
+    background: #A9A9A9;
+    color: #fff;
+    border-radius: 0px 0px 20px 20px;
+
+}
+.card-2:hover .card-body h4, .card-2:hover .card-body h5, .card-2:hover .card-body sup{
+    color: #fff;
+}
+
+.card-3{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.card-header{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.card-header h4{
+	text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0px 4px 0px;
+    color: #1a1a1a;
+}
+.divedier {
+    background: #999;
+    width: 287px;
+    height: 1px;
+    margin: 19px 0px 19px -20px;
+}
+.card-body {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+.card-body sup {
+    color: #1a1a1a;
+    font-size: 28px;
+    font-weight: 600;
+}
+.card-body h5 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+.card-body h4{
+	color: #1a1a1a;
+    font-size: 48px;
+    font-weight: 700;
+}
+.card-text {
+    color: #999999;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    margin: 50px 0px 55px 0px;
+}
+.btn-4 {
+    width: 41%;
+    padding: 12px 19px;
+    background: transparent;
+    color: #008ed6;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #999;
+    text-transform: uppercase;
+    margin: 0px 0px;
+    border-radius: 7px;
+}
+.card-3:hover .card-text{
+	color: #fff;
+}
+
+.card-3:hover .btn-4{
+    background: #008ed6;
+    color: #fff;
+    transition: 1s;
+    border: 1px solid #008ed6;
+
+}
+.card-3:hover .card-header h4{
+     color: #08c;
+}
+.card-3:hover .card-body{
+    background: #A9A9A9;
+    color: #fff;
+    border-radius: 0px 0px 20px 20px;
+
+}
+.card-3:hover .card-body h4, .card-3:hover .card-body h5, .card-3:hover .card-body sup{
+    color: #fff;
+}
+
+/*********************************************
+	*** Testimonial-section css code end***
+**********************************************/
+
+/*********************************************
+    *** Contract-section css code start ***
+*********************************************/
+.contact-section{
+	width: 100%;
+	padding: 80px 0px 0px;
+	background: #ededed;
+}
+.top-5{
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.top-5 h4 {
+    font-size: 18px;
+    color: #008ed6;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 14px;
+}
+.top-5 h1 {
+    color: #1a1a1a;
+    font-size: 43px;
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+.top-5 img {
+    margin-bottom: 86px;
+}
+.part-1{
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+.part-1 img {
+    margin: 0px 0px 34px 0px;
+}
+.part-1 h3 {
+    color: #969595;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px 0px 81px 0px;
+}
+.part-2{
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+.part-2 img {
+    margin: 0px 0px 34px 0px;
+}
+.part-2 h3{
+    color: #969595;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px 0px 0px 0px;
+}
+.part-3{
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+.part-3 img {
+    margin: 0px 0px 34px 0px;
+}
+.part-3 h3{
+    color: #969595;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px 0px 0px 0px;
+}
+
+.main-form {
+    width: 100%;
+    padding: 80px 50px 60px;
+    background: #000;
+    margin-top: 40px;
+    margin-bottom: -70px;
+}
+.main-form .form-control{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 13px 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #333333;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.main-form .form-control:hover{
+    color: #fff;
+}
+.main-form textarea.form-control{
+    height: 188px;
+}
+ .main-form .btn-div .btn-info{
+	padding: 10px 35px;
+	background: #0099cc;
+	color: #008ed6;
+	border: 1px solid #0099cc;
+	border-radius: 2px;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.main-form .btn-div .btn-info:hover{
+	background: transparent;
+	color: #fff;
+	border: 1px solid #0099cc;
+	transition: 1s ease-in;
+}
+/*********************************************
+    *** Contract-section css code end ***
+**********************************************/
+    
+/*********************************************
+    *** Map-section css code end ***
+*********************************************/
+.map-section{
+	width: 100%;
+}      
+/*********************************************
+    *** Map-section css code end ***
+**********************************************/
+
+
+/***********************************
+    **footer-section code start **
+***********************************/
+.footer-section {
+    width: 100%;
+    padding: 14px 0px;
+    background: #15141a;
+    margin-top: -7px;
+    margin-left: 0px;
+    text-align: center;
+}
+.social-icon ul li{
+    list-style: none;
+    display: inline-block;
+}
+.social-icon ul li a i {
+    color: #444348;
+    background: ;
+    padding: 11px 14px;
+    font-size: 18px;
+    margin-right: 10px;
+    border-radius: 40px;
+}
+
+.social-icon ul li a .fa-behance:hover{
+    color:#055df3;
+}
+.social-icon ul li a .fa-dribbble:hover{
+    color:#e45189;
+}
+.social-icon ul li a .fa-twitter:hover{
+    color:#1da1f2;
+}
+.social-icon ul li a .fa-facebook:hover{
+    color:#3c5a98;
+}
+.social-icon ul li a .fa-linkedin:hover{
+    color:#0073b0;
+}
+.social-inner{
+    width: 100%;
+}
+.social-inner h1{
+    color:#444348;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/***********************************
+    **footer-section code end **
+***********************************/
+
+/*back to top css start */
+.top {
+    float: right;
+    margin: -96px 20px 0px 0px;
+}
+.back-to-top {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    background: transparent;
+    border: 0px;
+}
+.back-to-top:hover{
+    background: transparent;
+    border: 0px;
+    opacity: 0.7;
+}
+.btn-16 {
+    color: #fff;
+    background-color: transparent!important;
+    border-color:transparent !important;
+}
+.btn-16.focus, .btn-16:focus {
+    color: #fff;
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.btn-16:hover {
+    color: #fff;
+    background-color:transparent !important;
+    border-color: transparent !important;
+}
+/*back to top css end */
+
+/*Stick up plug in start*/
+.isStuck{
+    left:0px;
+    width:100%;
+    background: rgba(0,0,0,0.6);
+}
+.navbar-wrapper {
+  margin-top:0px;
+  position: relative;
+  z-index: 15;
+  width: 100%;
+
+}
+/*Stick up plug in end*/
